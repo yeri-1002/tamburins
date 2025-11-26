@@ -59,6 +59,67 @@ html, body {
   margin: 0 auto;
 }
 
+/* .menu-bar 시작 */
+.menu-bar {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  background-color: transparent;
+  border-bottom: 1px solid #F2F1ED;
+  transition: .3s;
+}
+
+.menu-bar.hidden {
+  opacity: 0;
+  transform: translateY(-100%);
+}
+
+.menu-bar > .con > .m-info {
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+}
+
+.menu-bar > .con > .m-info > img {
+  display: block;
+  width: 216px;
+  height: 37px;
+}
+
+.menu-bar > .con > .m-info > ul {
+  display: flex;
+  gap: 110px;
+}
+
+.menu-bar > .con > .m-info > ul > li {
+  font-size: 20px;
+  font-weight: 600;
+  color: #F2F1ED;
+}
+
+.menu-bar > .con > .m-info > ul > li > a {
+  display: inline-block;
+  position: relative;
+}
+
+.menu-bar > .con > .m-info > ul > li > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #F2F1ED;
+  transition: .3s;
+}
+
+.menu-bar > .con > .m-info > ul > li > a:hover::after {
+  width: 100%;
+}
+
 /* .sec-1 시작 */
 .sec-1 {
   position: relative;
