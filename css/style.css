@@ -123,6 +123,211 @@ html, body {
   width: 100%;
 }
 
+/* .sec-5 시작 */
+.sec-5 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #F7F4F1;
+  padding-top: 109px;
+  padding-bottom: 158px;
+}
+
+.sec-5 > .con > .info > .top {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sec-5 > .con > .info > .top > img {
+  display: block;
+  width: 47px;
+  height: 2px;
+}
+
+.sec-5 > .con > .info > .top > .sub {
+  font-family: 'Merriweather';
+  font-weight: 400;
+  font-size: 17px;
+  color: #8D8D8D;
+}
+
+.sec-5 > .con > .info > .text-box {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  margin-bottom: 42px;
+}
+
+.sec-5 > .con > .info > .text-box > a {
+  display: block;
+  font-family: 'Merriweather';
+  font-size: 44px;
+  font-weight: 400;
+  color: #2F2F2F;
+}
+
+.sec-5 > .con > .info > .text-box > img {
+  display: block;
+  width: 4px;
+  height: 4px;
+}
+
+.sec-5 > .con > img {
+  display: block;
+  width: 1530px;
+  margin-bottom: 60px;
+}
+
+.sec-5 > .con > .info-img {
+  display: flex;
+  gap: 20px;
+}
+
+.sec-5 > .con > .info-img > .info-1 {
+  position: relative;
+}
+
+.sec-5 > .con > .info-img > .info-1 > a > img,
+.sec-5 > .con > .info-img > .info-3 > a > img {
+  display: block;
+  width: 367px;
+}
+
+.sec-5 > .con > .info-img > .info-1 > .title {
+  position: absolute;
+  top: 33px;
+  left: 40px;
+  font-family: 'Merriweather';
+  font-size: 32px;
+  color: #F7F4F1;
+}
+
+.sec-5 > .con > .info-img > .info-1 > .button {
+  position: absolute;
+  top: 398px;
+  right: 20px;
+}
+
+.sec-5 > .con > .info-img > .info-1 > .button > button {
+  border: 1px solid #F7F4F1;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 12px 6px;
+  color: #F7F4F1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+
+.sec-5 > .con > .info-img > .info-1 > .button > button:hover {
+  background-color: #F7F4F1;
+  color: #2F2F2F;
+}
+
+.sec-5 > .con > .info-img > .info-3 {
+  position: relative;
+}
+
+.sec-5 > .con > .info-img > .info-3 > .title {
+  position: absolute;
+  top: 33px;
+  left: 40px;
+  font-family: 'Merriweather';
+  font-size: 32px;
+  color: #F7F4F1;
+}
+
+.sec-5 > .con > .info-img > .info-3 > .button {
+  position: absolute;
+  top: 398px;
+  right: 20px;
+}
+
+.sec-5 > .con > .info-img > .info-3 > .button > button {
+  border: 1px solid #F7F4F1;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 12px 6px;
+  color: #F7F4F1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+
+.sec-5 > .con > .info-img > .info-3 > .button > button:hover {
+  background-color: #F7F4F1;
+  color: #2F2F2F;
+}
+
+.sec-5 > .con > .info-img > .info-2 > a > img,
+.sec-5 > .con > .info-img > .info-4 > a > img {
+  position: relative;
+  display: block;
+  width: 368px;
+}
+
+.sec-5 > .con > .info-img > .info-2 {
+  position: relative;
+}
+
+.sec-5 > .con > .info-img > .info-2 > .title {
+  position: absolute;
+  top: 33px;
+  left: 40px;
+  font-family: 'Merriweather';
+  font-size: 32px;
+  color: #F7F4F1;
+}
+
+.sec-5 > .con > .info-img > .info-2 > .button {
+  position: absolute;
+  top: 398px;
+  right: 20px;
+}
+
+.sec-5 > .con > .info-img > .info-2 > .button > button {
+  border: 1px solid #F7F4F1;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 12px 6px;
+  color: #F7F4F1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+
+.sec-5 > .con > .info-img > .info-4 {
+  position: relative;
+}
+
+.sec-5 > .con > .info-img > .info-4 > .title {
+  position: absolute;
+  top: 33px;
+  left: 40px;
+  font-family: 'Merriweather';
+  font-size: 32px;
+  color: #F7F4F1;
+}
+
+.sec-5 > .con > .info-img > .info-4 > .button {
+  position: absolute;
+  top: 398px;
+  right: 20px;
+}
+
+.sec-5 > .con > .info-img > .info-4 > .button > button {
+  border: 1px solid #F7F4F1;
+  background-color: transparent;
+  border-radius: 100%;
+  padding: 12px 6px;
+  color: #F7F4F1;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color .3s;
+}
+
 /* .sec-8 시작 */
 .sec-8 {
   width: 1920px;
