@@ -357,6 +357,138 @@ body::-webkit-scrollbar-track {
   width: 100%;
 }
 
+/* .sec-3 시작 */
+.sec-3 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #F7F4F1;
+  padding-top: 180px;
+  padding-bottom: 195px;
+  white-space: nowrap;
+}
+
+.sec-3 > .con > .info {
+  position: relative;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.sec-3 > .con > .info > img {
+  display: block;
+  width: 576px;
+  height: 775px;
+  margin-right: 62px;
+}
+
+.sec-3 > .con > .info .text-box > .top {
+  display: flex;
+  align-items: center;
+  gap: 490px;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-left {
+  display: flex;
+  align-items: baseline;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-left > .title {
+  font-family: 'PT Serif';
+  font-size: 64px;
+  color: #2F2F2F;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-left > img {
+  display: block;
+  width: 4px;
+  height: 4px;
+  margin-left: 6px;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-left > .sub {
+  font-family: 'PT Serif';
+  font-size: 14px;
+  color: #2F2F2F;
+  margin-left: 16px;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-right {
+  position: absolute;
+  top: 85px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-right > p {
+  font-family: 'PT Serif';
+  font-size: 12px;
+  color: #888888;
+}
+
+.sec-3 > .con > .info .text-box > .top > .top-right > img {
+  width: 92px;
+}
+
+.sec-3 > .con > .info .text-box > img {
+  display: block;
+  width: 180px;
+}
+
+.sec-3 > .con > .info .text-box > .sub-text {
+  font-size: 10px;
+  font-weight: 400;
+  color: #888888;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.sec-3 > .con > .info .text-box > .center {
+  font-family: 'PT Serif';
+  font-size: 44px;
+  color: #2F2F2F;
+  margin-bottom: 70px;
+}
+
+.sec-3 > .con > .info .text-box > .center-sub {
+  font-family: 'Noto Sans KR';
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #262626;
+  margin-bottom: 316px;
+}
+
+.sec-3 > .con > .info .text-box > .bottom {
+  font-family: 'Noto Sans KR';
+  font-size: 12px;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #8D8D8D;
+}
+
+.sec-3 > .con > .info > .right-box > img:nth-child(1) {
+  position: absolute;
+  bottom: 0;
+  right: 165px;
+  display: block;
+  width: 299px;
+  height: 322px;
+}
+
+.sec-3 > .con > .info > .right-box > img:nth-child(2) {
+  position: absolute;
+  bottom: 228px;
+  right: 0;
+  display: block;
+  width: 229px;
+  height: 284px;
+  z-index: 2;
+}
+
+
+
 
 /* .sec-4 시작 */
 .sec-4 {
