@@ -59,6 +59,70 @@ html, body {
   margin: 0 auto;
 }
 
+/* .sec-4 시작 */
+.sec-4 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-4 > .img-box {
+  width: 1920px;
+}
+
+.sec-4 > .img-box > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-4 > .con > .text-box {
+  position: absolute;
+  top: 128px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.sec-4 > .con > .text-box > .title {
+  font-family: 'PT Serif';
+  font-size: 50px;
+  color: #2F2F2F;
+}
+
+.sec-4 > .con > .text-box > .sub {
+  font-size: 18px;
+  font-weight: 300;
+  color: #555555;
+  margin-top: 20px;
+}
+
+.sec-4 > .con > .text-box > .button {
+  margin-top: 60px;
+  color: #3F5143;
+}
+
+.sec-4 > .con > .text-box > .button > a {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sec-4 > .con > .text-box > .button > a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #647160;
+  transition: .3s;
+}
+
+.sec-4 > .con > .text-box > .button > a:hover::after {
+  width: 100%;
+}
+
 /* .sec-8 시작 */
 .sec-8 {
   width: 1920px;
