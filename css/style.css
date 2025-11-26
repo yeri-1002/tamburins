@@ -1,3 +1,42 @@
+/* 폰트 */
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-display: swap;
+}
+
+
 /* 노말라이즈 */
 body, ul, li, span, p {
   margin: 0;
@@ -12,4 +51,56 @@ a {
 
 html, body {
   overflow-x: hidden;
+  font-family: 'Pretendard';
+}
+
+.con {
+  width: 1530px;
+  margin: 0 auto;
+}
+
+/* .sec-9 시작 */
+.sec-9 {
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #F7F4F1;
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.sec-9 > .con > .top-text {
+  display: flex;
+  gap: 48px;
+}
+
+.sec-9 > .con > .top-text > a {
+  display: block;
+  color: #3C3C43;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sec-9 > .con > img {
+  display: block;
+  width: 1530px;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+
+.sec-9 > .con > .info {
+  color: #3C3C43;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sec-9 > .con > .info > .top {
+  margin-bottom: 6px;
+}
+
+.sec-9 > .con > .info > .bottom {
+  margin-bottom: 14px;
+}
+
+.sec-9 > .con > .info > .copy {
+  color: #9D9DA0;
 }
