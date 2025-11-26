@@ -59,6 +59,50 @@ html, body {
   margin: 0 auto;
 }
 
+/* .sec-1 시작 */
+.sec-1 {
+  position: relative;
+  width: 1920px;
+  margin: 0 auto;
+}
+
+.sec-1 > .img-box {
+  width: 1920px;
+}
+
+.sec-1 > .img-box > a > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-1 > .text-img {
+  position: absolute;
+  top: 360px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 690px;
+}
+
+.sec-1 > .text-img > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-1 > .text-box {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sec-1 > .text-box > .sub {
+  color: #BFBFBF;
+  font-family: 'Merriweather';
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
 /* .sec-4 시작 */
 .sec-4 {
   position: relative;
