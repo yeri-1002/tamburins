@@ -59,6 +59,32 @@ html, body {
   margin: 0 auto;
 }
 
+/* .sec-8 시작 */
+.sec-8 {
+  width: 1920px;
+  margin: 0 auto;
+  background-color: #647160;
+  padding-top: 204px;
+  padding-bottom: 204px;
+  text-align: center;
+}
+
+.sec-8 > .con > .text-box {
+  color: #F7F4F1;
+}
+
+.sec-8 > .con > .text-box > .top {
+  font-family: 'PT Serif';
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.sec-8 > .con > .text-box > .bottom {
+  color: #C8C8C8;
+}
+
+
 /* .sec-9 시작 */
 .sec-9 {
   width: 1920px;
