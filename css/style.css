@@ -83,7 +83,7 @@ html, body {
   margin-bottom: 20px;
 }
 
-.menu-bar > .con > .m-info > img {
+.menu-bar > .con > .m-info > a > img {
   display: block;
   width: 216px;
   height: 37px;
