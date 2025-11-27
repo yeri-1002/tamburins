@@ -487,6 +487,35 @@ body::-webkit-scrollbar-track {
   z-index: 2;
 }
 
+.sec-3 > .con > .info > .right-box > .button {
+  position: absolute;
+  bottom: 290px;
+  right: 240px;
+}
+
+.sec-3 > .con > .info > .right-box > .button > a {
+  position: relative;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 400;
+  color: #888888;
+}
+
+.sec-3 > .con > .info > .right-box > .button > a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -3px;
+  left: 0;
+  background-color: #888888;
+  transition: .3s;
+}
+
+.sec-3 > .con > .info > .right-box > .button > a:hover::after {
+  width: 100%;
+}
+
 
 
 
